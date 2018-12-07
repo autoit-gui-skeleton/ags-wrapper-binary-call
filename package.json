@@ -14,7 +14,7 @@
     "AGS-wrapper",
     "BinaryCall"
   ],
-  "homepage": "https://autoit-gui-skeleton.github.io/tags/#Wrapper",
+  "homepage": "https://autoit-gui-skeleton.github.io/",
   "repository": {
     "url": "https://github.com/autoit-gui-skeleton/ags-wrapper-binary-call.git",
     "type": "git"
