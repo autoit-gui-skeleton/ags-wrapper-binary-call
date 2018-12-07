@@ -1,9 +1,7 @@
 AGS-wrapper-binary-call
 =======================
 
-> [AutoIt Gui Skeleton](https://autoit-gui-skeleton.github.io/) package for wrapping the library [BinaryCall](https://www.autoitscript.com/forum/topic/162366-binarycall-udf-write-subroutines-in-c-call-in-autoit/) created by [Ward's](https://www.autoitscript.com/forum/profile/10768-ward/)
-
-See this package on [npmjs.com]([@autoit-gui-skeleton/ags-wrapper-json](https://www.npmjs.com/package/@autoit-gui-skeleton/ags-wrapper-binary-call)
+> [AutoIt Gui Skeleton](https://autoit-gui-skeleton.github.io/) package for wrapping the library [BinaryCall](https://www.autoitscript.com/forum/topic/162366-binarycall-udf-write-subroutines-in-c-call-in-autoit/) created by [Ward's](https://www.autoitscript.com/forum/profile/10768-ward/). See this package on [npmjs.com](https://www.npmjs.com/package/@autoit-gui-skeleton/ags-wrapper-binary-call)
 
 
 
