@@ -1,0 +1,37 @@
+{
+  "name": "@autoit-gui-skeleton/ags-wrapper-binary-call",
+  "version": "1.0.0",
+  "description": "AGS package for the library BinaryCall. Write subroutines in C, call in AutoIt.",
+  "author": "v20100v <vb20100bv@gmail.com> (https://github.com/v20100v)",
+  "contributors": [
+    "v20100v <vb20100bv@gmail.com> (https://github.com/v20100v)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "AGS",
+    "AutoIt",
+    "AutoIt-GUI-Skeleton",
+    "AGS-wrapper",
+    "BinaryCall"
+  ],
+  "homepage": "https://autoit-gui-skeleton.github.io/tags/#Wrapper",
+  "repository": {
+    "url": "https://github.com/autoit-gui-skeleton/ags-wrapper-binary-call.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/autoit-gui-skeleton/ags-wrapper-binary-call/issues"
+  },
+  "dependencies": {},
+  "AGS": {
+    "framework": {
+      "version": "1.0.0"
+    },
+    "AutoIt": {
+      "version": "3.3.14.5"
+    },
+    "wrapper": {
+      "main": "BinaryCall.au3"
+    }
+  }
+}
