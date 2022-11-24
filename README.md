@@ -48,12 +48,11 @@ AGS provides a dependency manager for AutoIt library. It uses the Node.js ecosys
 
 ## BinaryCall : Write subroutines in C, call in AutoIt
 
-> According to the ward's documentation for BinaryCall
->
-> @see https://www.autoitscript.com/forum/topic/162366-binarycall-udf-write-subroutines-in-c-call-in-autoit/
 
-** BinaryCall UDF - Write Subroutines In C, Call In AutoIt **
+> According to the ward's documentation for BinaryCall, see https://www.autoitscript.com/forum/topic/162366-binarycall-udf-write-subroutines-in-c-call-in-autoit/
 
+
+### BinaryCall UDF - Write Subroutines In C, Call In AutoIt
 
 I have wrote a lot of binary code library for AutoIt before. I also discover
 many ways to generate binary code for AutoIt in the past. However, all of them
