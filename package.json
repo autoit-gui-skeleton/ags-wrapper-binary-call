@@ -1,7 +1,7 @@
 {
   "name": "@autoit-gui-skeleton/ags-wrapper-binary-call",
-  "version": "1.0.2",
-  "description": "AGS package for the library BinaryCall. Write subroutines in C, call in AutoIt.",
+  "version": "1.0.3",
+  "description": "AGS package for the library BinaryCall created by Ward. Write subroutines in C, call in AutoIt.",
   "author": "v20100v <vb20100bv@gmail.com> (https://github.com/v20100v)",
   "contributors": [
     "v20100v <vb20100bv@gmail.com> (https://github.com/v20100v)"

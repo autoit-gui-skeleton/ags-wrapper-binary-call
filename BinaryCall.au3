@@ -4,7 +4,7 @@
 ; Author	: Ward
 ; ============================================================================================================================
 
-#Include-once
+#include-once
 
 Global $__BinaryCall_Kernel32dll = DllOpen('kernel32.dll')
 Global $__BinaryCall_Msvcrtdll = DllOpen('msvcrt.dll')
@@ -203,9 +203,9 @@ Func _BinaryCall_ImportLibrary($Base, $Length)
 			Local $Proc = 0
 
 			If $HasMemoryDll Then
-				Local $Module = __MemoryModule_ModuleRecord("get", Null, $DllName)
+				Local $Module = Execute('__MemoryModule_ModuleRecord("get", Null, $DllName)')
 				If $Module Then
-					Local $MemoryGetProcAddress = __MemoryModule_RuntimeLoader("MemoryGetProcAddress")
+					Local $MemoryGetProcAddress = Execute('__MemoryModule_RuntimeLoader("MemoryGetProcAddress")')
 					If $MemoryGetProcAddress Then $Proc = DllCallAddress("ptr:cdecl", $MemoryGetProcAddress, "ptr", $Module, "str", $ProcName)[0]
 					If Not $Proc Then Return SetError(2, _BinaryCall_LastError("MemoryGetProcAddress failed on " & $ProcName), False)
 				EndIf
